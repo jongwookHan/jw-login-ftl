@@ -58,29 +58,7 @@ body {
   margin-top: 55px;
   margin-bottom: -55px;
 }
-.login-content .box .login-field {
-  width: 320px;
-  height: 24px;
-  font-family: Muli;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: -0.4px;
-  text-align: left;
-  color: #000000;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  outline: none;
-  background-color: #fff;
-}
-.login-content .box input[type="text"]:focus, .login-content .box input[type="password"]:focus {
-  border-bottom: 2px solid #0055B8;
-}
-.login-content .box input[type="text"]:-webkit-autofill, .login-content .box input[type="password"]:-webkit-autofill
-{
-  box-shadow: 0 0 0px 1000px white inset;
-}
+
 .login-content .box .submit{
   width: 440px;
   height: 72px;
@@ -212,6 +190,7 @@ body {
   line-height: normal;
   letter-spacing: -0.2px;
   color: #212121;
+  cursor: pointer;
 }
 
 .link-button:hover {
@@ -246,4 +225,9 @@ body {
   padding: 10px;
   outline: none;
   border:none;
+}
+
+.header img {
+  width: 36px;
+  height: 36px;
 }

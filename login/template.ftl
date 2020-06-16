@@ -18,6 +18,9 @@
 
 	<body>
         <#nested "header">
+        <div class="header">
+            <img src="${url.resourcesPath}/img/jonathan-logo.svg">
+        </div>
         <div class="login-content">
             <div class="box">
                 <#if displayMessage && message?has_content>

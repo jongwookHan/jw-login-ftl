@@ -35,7 +35,7 @@
                         <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>  -->
                     <div class="input-container">
-                        <i class="fa fa-envelope-o icon"></i>
+                        <i class="fa fa-lock icon"></i>
                         <input id="password" class="input-field login-field" type="password" placeholder="비밀번호" name="password" tabindex="2">
                     </div>
                     <p>아이디 및 비밀번호가 일치하지 않습니다.</p>
