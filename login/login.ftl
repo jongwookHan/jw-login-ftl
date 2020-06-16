@@ -38,16 +38,18 @@
                         <i class="fa fa-lock icon"></i>
                         <input id="password" class="input-field login-field" type="password" placeholder="비밀번호" name="password" tabindex="2">
                     </div>
-                    <p>아이디 및 비밀번호가 일치하지 않습니다.</p>
+                    <p class="err-msg">아이디 및 비밀번호가 일치하지 않습니다.</p>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="">
                         <label class="form-check-label" for="inlineCheckbox1">로그인 상태 유지</label>
                     </div>
                     <input class="submit" type="submit" value="로그인" tabindex="3">
-                    <a class="link-button"><span class="link-button-inner">가입하기</span></a>
-                    <a class="link-button"><span class="link-button-inner">아이디 찾기</span></a>
-                    <a class="link-button"><span class="link-button-inner">비밀번호 찾기</span></a>
+                    <div class="button-container">
+                        <a class="link-button"><span class="link-button-inner">가입하기</span></a> | 
+                        <a class="link-button"><span class="link-button-inner">아이디 찾기</span></a> | 
+                        <a class="link-button"><span class="link-button-inner">비밀번호 찾기</span></a>
+                    </div>
                 </form>
             </div>
         </#if>
@@ -60,7 +62,7 @@
             </div>
         </#if>
         <div>
-            <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
+            <p class="copyright">&copy; © 2020 Acryl inc. All rights reserved.</p>
         </div>
     </#if>
 </@layout.registrationLayout>

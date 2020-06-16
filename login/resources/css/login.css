@@ -46,6 +46,19 @@ body {
 }
 .login-content .box .form {
   margin-top: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-content .box .form .err-msg {
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #e5261c;
 }
 
 .login-content .box .submit{
@@ -195,9 +208,11 @@ body {
 .input-container {
   display: -ms-flexbox; /* IE10 */
   display: flex;
-  width: 100%;
+  width: calc(100% - 2px);
   margin-bottom: 15px;
   border: solid 1px;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
@@ -210,7 +225,13 @@ body {
 
 .input-field {
   width: 100%;
-  padding: 10px;
   outline: none;
   border:none;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
 }
