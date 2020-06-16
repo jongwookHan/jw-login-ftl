@@ -14,6 +14,14 @@
         </#list>
     </#if>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+        .header img {
+            width: 60px;
+            height: 60px;
+            margin-left: 36px;
+            margin-top: 36px
+        }
+   </style>
 </head>
 
 	<body>

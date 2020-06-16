@@ -23,21 +23,12 @@ body {
   flex-direction:column;
 }
 .login-content .box {
-  width: 448px;
-  border-radius: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
-  margin: auto;
+  width: 440px;
+  height: 100%;
+  margin: 0px calc(50% - 220px);
 }
 .login-content .box .box-container {
   width:100%;
-  padding-left: 32px;
-}
-.login-content .box .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
 }
 .login-content .box .application-name {
   width: 270px;
@@ -54,9 +45,7 @@ body {
   margin-top: 40px;
 }
 .login-content .box .form {
-  margin-left: 32px;
-  margin-top: 55px;
-  margin-bottom: -55px;
+  margin-top: 80px;
 }
 
 .login-content .box .submit{
@@ -168,7 +157,6 @@ body {
 }
 
 .login-header p {
-  width: 391px;
   height: 56px;
   font-family: NotoSansCJKkr;
   font-size: 16px;
@@ -225,9 +213,4 @@ body {
   padding: 10px;
   outline: none;
   border:none;
-}
-
-.header img {
-  width: 36px;
-  height: 36px;
 }
